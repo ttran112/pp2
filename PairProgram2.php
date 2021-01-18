@@ -19,8 +19,15 @@ error_reporting(E_ALL);
 <?php
 //print out something
 echo "<p>PHP Array Practice</p>";
+$number = array(7,9,8,9,8,8,6);
 
-
+function printArray($number)
+{
+    foreach ( $number as $item) {
+        echo "$item <br>";
+    }
+}
+printArray($number);
 ?>
 </body>
 </html>
