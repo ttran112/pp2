@@ -25,6 +25,9 @@ echo "<p>PHP Array Practice</p>";
 $number = array(7,9,8,9,8,8,6);
 
 printArray($number);
+largest($number);
+removeDups($number);
+distribution($number);
 ?>
 </body>
 </html>
